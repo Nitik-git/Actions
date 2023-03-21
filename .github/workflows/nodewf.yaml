@@ -5,6 +5,7 @@ on:
     #   - master
     paths-ignore:
       - "backend/**"
+      - ".github/**"
   workflow_dispatch:
 
 jobs:
