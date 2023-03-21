@@ -4,8 +4,8 @@ on:
     # branches:
     #   - master
     paths:
-      - "dev/backend/monitor/**"
-      - "dev/backend/costing/*"
+      # - "dev/backend/cloud/**"
+      - "dev/frontend/*"
     # paths-ignore:
     #   - "dev/backend/logs.txt"
     #   - ".github/**"
