@@ -3,9 +3,12 @@ on:
   push:
     # branches:
     #   - master
-    paths-ignore:
-      - "dev/backend/logs.txt"
-      - ".github/**"
+    paths:
+      - "dev/backend/monitor/**"
+      - "dev/backend/costing/*"
+    # paths-ignore:
+    #   - "dev/backend/logs.txt"
+    #   - ".github/**"
   workflow_dispatch:
 
 jobs:
