@@ -3,7 +3,7 @@ on:
   push:
     # branches:
     #   - master
-                                                              # * includes all files , ** includes all files and directories
+    # * includes all files , ** includes all files and directories
     paths:
       - "dev/backend/cloud/**"
       - "dev/backend/*"
@@ -11,7 +11,7 @@ on:
     # paths-ignore:
     #   - "dev/backend/logs.txt"
     #   - ".github/**"
-  # workflow_dispatch:
+  # workflow_dispatch:                                                              // add button to manual trigger
 
 jobs:
   hello:
