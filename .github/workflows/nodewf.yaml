@@ -3,13 +3,15 @@ on:
   push:
     # branches:
     #   - master
+                                                              # * includes all files , ** includes all files and directories
     paths:
-      # - "dev/backend/cloud/**"
-      - "dev/frontend/*"
+      - "dev/backend/cloud/**"
+      - "dev/backend/*"
+      - "dev/frontend/**"
     # paths-ignore:
     #   - "dev/backend/logs.txt"
     #   - ".github/**"
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   hello:
