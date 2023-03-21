@@ -4,7 +4,7 @@ on:
     # branches:
     #   - master
     paths-ignore:
-      - "dev/backend/**"
+      - "dev/backend/logs.txt"
       - ".github/**"
   workflow_dispatch:
 
