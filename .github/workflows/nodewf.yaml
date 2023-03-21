@@ -4,7 +4,7 @@ on:
     # branches:
     #   - master
     paths-ignore:
-      - "backend/**"
+      - "dev/backend/**"
       - ".github/**"
   workflow_dispatch:
 
